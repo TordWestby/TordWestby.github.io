@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Her kan du kontakte oss med dine klager, sprøsmål eller feilinformasjon">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Tord Harald Westby">
+    <link rel="stylesheet" type="text/css" href="css/style3.css"> 
+    <title>Kontakt Oss</title>
+    <title>Forside deleksamen Tord</title>
+    <link rel="icon" type="image/x-icon" href="/image/logo_2.png">
+
+    
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://tordwestby.github.io/kontakt_oss.html" />
+<meta property="og:title" content="Kontak oss her" />
+<meta property="og:description" content="Kontakt meg siden, her kan du kontakte eieren av siden for eventuelle spørsmål eller ting du vil ha oppklart eller lurer på." />
+<meta property="og:image" content="https://tordwestby.github.io/image/logo_2.png" />
+
+<!-- Twitter -->
+<meta name = "twitter:card" content = "summary_large_image" />
+<meta name = "twitter:title" content = "Kontakt oss her" />
+<meta name = "twitter:description" content = "Kontakt meg siden, her kan du kontakte eieren av siden for eventuelle spørsmål eller ting du vil ha oppklart eller lurer på." />
+<meta name = "twitter:image" content = "https://tordwestby.github.io/image/logo_2.png" />
+
+</head>
+<body>
+    <div id="div-container">
+        <header>
+            <nav>
+                <ul id="nav-options">
+                        <li id="logo">
+                            <a href="index.html"><img src="../image/logo_2.png" alt="Bilde av logoen"></a>
+                        </li>
+                        <li>
+                            <a href="index.html">Hjem</a> 
+                        </li>
+                        <li>
+                            <a href="uu_vs_seo.html">UU vs SEO</a> 
+                        </li>
+                        <li>
+                            <a href="cms.html">CMS</a> 
+                        </li>
+                        <li>
+                            <a href="analyse.html">Analyse</a> 
+                        </li>
+                        <li>
+                            <a href="kontakt_oss.html">Kontakt Oss</a> 
+                        </li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <h1>Her kan du lett kontakte oss gjennom vårt kontakt kontakt skjema som du finner under.</h1>
+        <div id="kontakt-oss">
+            <div class="contact-form">
+                <form action="kontakt_oss.php">
+                    <label for="fname">Navn</label>
+                    <input type="text" id="fname" name="navn" placeholder="Ditt navn">
+
+                    <label for="email">Din E-post adresse</label>
+                    <input type="text" id="email" name="email" placeholder="E-post adresse">
+
+                    <label for="reason">Hva er grunnen</label>                              <!--Kontakt oss skjema er hentet fra https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+                    <select id="reason" name="reason">
+                        <option value="complaint">Klage</option>
+                        <option value="wronginformation">Feilinformasjon</option>
+                        <option value="question">Spørsmål</option>
+                    </select>
+
+                    <label for="subject">Hva handler det om</label>
+                    <textarea id="subject" name="subject" placeholder="Skriv her" style="height:200px"></textarea>
+
+                    <input type="submit" value="Send inn">
+                </form>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.188276120806!2d11.350614616177541!3d59.12925023409058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1669668283778!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+
+        
+    </main>
+    <footer>
+        <br>        <!--Footer som er festet til bunnen med hjelp av css og en kontakt oss knapp som sender deg vidre til kontakt oss siden.-->
+
+        <ul id="footer-items">
+            <li>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Wow, check this site out" data-url="https://tordwestby.github.io/kontakt_oss.html" data-show-count="false">Tweet</a>           <!--Share kode for twitter hentet fra: https://publish.twitter.com/?buttonText=Wow%2C%20check%20this%20site%20out&buttonType=TweetButton&buttonUrl=https%3A%2F%2Ftordwestby.github.io%2Findex.html&widget=Button-->
+            </li>
+            <li>
+                <div class="fb-share-button" data-href="https://tordwestby.github.io/kontakt_oss.html" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftordwestby.github.io%2Fkontakt_oss.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Del</a></div>        <!--Share kode for facebook hentet fra: https://developers.facebook.com/docs/plugins/share-button/-->
+            </li>
+            <li>
+                <a id="pinetrest" data-pin-do="buttonFollow" href="https://no.pinterest.com/torden2200/">Pinterest</a>
+            </li>
+            <li>
+                <p><a href="kontakt_oss.html">Kontakt oss her</a></p>     
+            </li>
+        </ul> 
+    </footer>
+</div>
+
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v15.0" nonce="PeuUg1bx"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+</body>
+</html>
+
+
+
+
+
